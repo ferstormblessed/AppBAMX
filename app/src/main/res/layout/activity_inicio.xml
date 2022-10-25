@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="inicioVM" type="com.application.app.modules.inicio.data.viewmodel.InicioVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearInicio"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylebluegray_800">
+
+
+        <ImageView
+            android:id="@+id/imageBamxlogoOne"
+            android:layout_width="336dp"
+            android:layout_height="@dimen/_192pxh"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_240pxv"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_gdl_bamx_ch"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</layout>
